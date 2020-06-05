@@ -1,0 +1,805 @@
+Exam A
+QUESTION 1.
+A következő állítások egy projekt útvonalára vonatkoznak. Jelölje meg az összes igaz állítást!
+a)   A forrásútvonal a lefordított bájtkódok gyökérkönyvtára.
+b)   A forrásútvonal és a célútvonal csomagstruktúrájának konvenció szerint meg kell egyeznie.
+c)   A csomag neve különbözhet a csomaghoz tartozó könyvtár nevétől.
+d)   A forrásútvonal egybeeshet a célútvonallal.
+Correct answer: bd
+QUESTION 2.
+A következő állítások egy projekt útvonalaira és állományaira vonatkoznak. Jelölje meg az összes igaz állítást!
+a) A célútvonal struktúrája automatikusan épül fel, a forráskód package deklarációi alapján.
+b) A forrásútvonal struktúrája automatikusan épül fel, a forráskód package deklarációi alapján.
+c) A projekt sikeres fordítása után a forrásútvonal java állományainak száma mindig megegyezik a célútvonal class állományainak a számával.
+d) Egy csomag fordítási egységeit ugyanabban a könyvtárban kell elhelyezni.
+Correct answer: ad
+QUESTION 3.
+A következő állítások egy projekt fordítására vonatkoznak. Jelölje meg az összes igaz állítást!
+a)   Két különböző fordítási egység bájtkódja nem kerülhet egy könyvtárba.
+b)   Ugyanannak a fordítási egységnek a class állományai ugyanabba a könyvtárba kerülnek.
+c)   Minden osztályhoz és interfészhez külön class állomány keletkezik.
+d)   Egy fordítási egységben legfeljebb egy osztály vagy interfész deklarálható.
+Correct answer: bc
+QUESTION 4.
+Mely módosítók alkalmazhatók egy osztály fejében? Jelölje meg az összes helyes módosítót!
+a)   private
+b)   public
+c)   protected
+d)   abstract
+Correct answer: bd
+QUESTION 5.
+Mely módosítók alkalmazhatók egy osztály fejében? Jelölje meg az összes helyes módosítót!
+a)   final
+b)   abstract
+c)   protected
+d)   public
+Correct answer: abd
+QUESTION 6.
+Mi a forrásútvonal, illetve a célútvonal ajánlott neve a NetBeans-projektekben? Jelölje meg az egyetlen helyes választ!
+a)   source, classes
+b)   src, class
+c)   src, classes
+d)   sources, classes
+Correct answer: c
+QUESTION 7.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A forráskódban a package kulcsszónak mindig meg kell előznie az import kulcsszót.
+b)   A forráskódban legalább egyszer szerepelnie kell az import kulcsszónak.
+c)   A forráskódban legalább egyszer szerepelnie kell a package kulcsszónak.
+d)   A forráskódban benne kell lennie az import vagy a package kulcsszónak.
+Correct answer: a
+QUESTION 8.
+Ezek itt egy Java-forráskód első sorai. Jelölje meg a szintaktikailag helyes eseteket!
+a) import java.awt.*; package csomag1;
+b) package csomag1; import java.awt.*;
+c) package csomag1.*; import java.awt.*;
+d) package csomag1; import java.awt;
+Correct answer: b
+QUESTION 9.
+A Test projekt forrásútvonalának gyökérkönyvtára Test/src, célútvonalának gyökérkönyvtára Test/classes. A Teglalap
+osztály a kozos::idomok csomagban van, fordítási egysége a Teglalap.java. Jelölje meg az összes igaz állítást a
+következők közül!
+a)   A Teglalap.class helye a lemezen a Test/Teglalap könyvtár.
+b)   A Teglalap.java forráskód package deklarációja: package classes.kozos.idomok
+c)   A Teglalap.java állománynak a Test/src/kozos/idomok könyvtárban kell lennie.
+d)   A Teglalap.java a Teglalap osztályon kívül nem tartalmazhat más deklarációt.
+Correct answer: c
+QUESTION 10.
+A Test projekt forrásútvonalának Test/src a gyökérkönyvtára. A Teglalap osztály a Test/src/kozos/idomok mappában
+van. Jelölje meg az egyetlen helyes választ a következők közül! A szintaktikailag helyes fordításhoz a Teglalap.java
+forráskód package deklarációja csak a következő lehet:
+a)   package    src.kozos.idomok;
+b)   package    kozos.idomok;
+c)   package    kozos.idomok.*;
+d)   package    idomok;
+Correct answer: b
+QUESTION 11.
+Az elnevezési konvenció szerint egy Java-forráskódban mely nevek azonosíthatnak csomagot? Jelölje meg az összes
+helyes választ a következők közül!
+a)   kozos.teglalap
+b)   kozos.idomok.sikIdomok
+c)   extra.frame
+d)   extra.main_frame
+Correct answer: ac
+QUESTION 12.
+Jelölje meg az összes igaz állítást a következők közül!
+A csomagelnevezési konvenció szerint a kozos.idomok.sik_Idom azonosító
+a) helyes.
+b) azért nem helyes, mert a csomag nevében van nagybetű.
+c) azért nem helyes, mert a csomag nevében aláhúzás karakter van.
+d) azért nem helyes, mert a csomag neve egyes számban van.
+Correct answer: bc
+QUESTION 13.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Egy osztályból az implements kulcsszóval származtathatunk utódosztályt.
+b) A Javában egy osztálynak több közvetlen őse lehet.
+c) Az Object osztály minden osztálynak implicit őse.
+d) Egy osztályból csak egyetlen osztály származtatható.
+Correct answer: c
+QUESTION 14.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Egy objektum osztályát az objektum születésekor kell meghatározni, s később már nem lehet megváltoztatni.
+b) Egy objektumra csak egy referencia mutathat.
+c) Ha az objektumreferencia egy utódosztályú objektumra mutat, hivatkozáskor futási hiba keletkezik.
+d) Az objektum osztálya lekérdezhető a program futása közben.
+Correct answer: ad
+QUESTION 15.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Egy objektum csak az osztályában deklarált adatokat tartalmazza.
+b) Egy osztályban felülírhatjuk az ősosztály bármely metódusát.
+c) Az osztályban nem deklarált metódust a futtató rendszer az öröklési láncon alulról felfelé haladva keresi meg.
+d) A super a megszólított objektum referenciája.
+Correct answer: cd
+QUESTION 16.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Az objektumreferencia statikus típusa a deklarált típus.
+b) Ugyanaz az objektumreferencia különböző osztályú objektumokat azonosíthat.
+c) Ha egy referenciával ősosztályú objektumra hivatkozunk, akkor futási hiba keletkezhet.
+d) Az objektum osztálya futás közben nem kérdezhető le.
+Correct answer: abc
+QUESTION 17.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Az absztrakt osztályok kivételével minden osztályban deklarálni kell legalább egy konstruktort.
+b) Egy osztálynak több, különböző szignatúrájú konstruktora is lehet.
+c) Minden konstruktor nevének meg kell egyeznie az osztály nevével.
+d) A konstruktor az objektum létrehozásakor fut le.
+Correct answer: bcd
+QUESTION 18.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Egy konstruktorból meghívható az osztály egy másik konstruktora.
+b) Egy objektum létrehozásakor az öröklési ág minden osztályának lefut legalább egy konstruktora.
+c) Ha a konstruktor első sorában nem szerepel this() vagy super() hívás, akkor futási hiba keletkezhet.
+d) Az osztályadatokat konstruktorban szokás inicializálni.
+Correct answer: abc
+QUESTION 19.
+A következő állítások mind védett láthatóságú metódusokra vonatkoznak; jelölje meg közülük az összes igaz állítást!
+a) Csak saját osztályukban érhetők el.
+b) Csak az utódosztályokban érhetők el.
+c) Az utódosztályokban bővíthető a láthatóságuk.
+d) A csomagon kívül nem érhetők el.
+Correct answer: cd
+QUESTION 20.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Absztrakt osztályban csak absztrakt metódusok szerepelhetnek.
+b) Absztrakt osztálynak nem lehet utódja.
+c) Absztrakt metódusnak nincs blokkja.
+d) Absztrakt osztály nem példányosítható.
+Correct answer: cd
+QUESTION 21.
+Jelölje meg az össze igaz állítást a következők közül!
+a) Az interfész csak metódusfejeket definiálhat.
+b) Az interfész csak konstansokat definiálhat.
+c) Az interfész metódusai csak példánymetódusok lehetnek.
+d) Az interfészek nem példányosíthatók.
+Correct answer: cd
+QUESTION 22.
+Jelölje meg az össze igaz állítást a következők közül!
+a) Az interfészek nem példányosíthatók.
+b) Az interfészben definiált metódusfejek kötelező két módosítója a protected és az abstract.
+c) Egy interfészben metódusfejeket és konstansokat definiálhatunk.
+d) Az interfészek örökíthetők, és egy interfész több interfészt is örökölhet.
+Correct answer: acd
+QUESTION 23.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Belső osztályban nem lehetnek statikus deklarációk.
+b) Belső osztály bájtkódjának nevében van $ karakter.
+c) Belső osztály lehet névtelen.
+d) Névtelen osztály csak osztály kiterjesztésével példányosítható.
+Correct answer: abc
+QUESTION 24.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Egy interfészben metódusfejeket és konstansokat definiálhatunk.
+b) Az interfész metódusai példánymetódusok.
+c) Egy interfésznek az osztályhoz hasonlóan csak egy interfész őse lehet.
+d) Az interfészekből példányok hozhatók létre, akárcsak az osztályokból.
+Correct answer: ab
+QUESTION 25.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Az interfész metódusai osztálymetódusok vagy példánymetódusok lehetnek.
+b) Egy osztály akárhány interfészt implementálhat.
+c) Az interfészt implementáló osztályban az interfésznek csak azokat a metódusait kell megírni, amelyeket a program használni fog.
+d) Az UML-ben az interfészek öröklődését ugyanúgy jelöljük, mint az osztályokét.
+Correct answer: bd
+QUESTION 26.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A programot leállító események objektumok, és osztályuk valamennyien a Throwable osztály leszármazottai.
+b) A programot leállító események osztályai két csoportra oszthatók: az Event és az Exception osztály leszármazottaira.
+c) A rendszerhibákat (Error) a programozó a programban elkaphatja és lekezelheti.
+d) A kivétel egy objektum, és osztálya az Exception osztály vagy annak leszármazottja.
+Correct answer: ad
+QUESTION 27.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A metódusban le kell kezelni a throws-ban továbbadott kivételt.
+b)   Egy ellenőrzött kivételt vagy le kell kezelni, vagy tovább kell adni a hívó metódusnak.
+c)   A programozó is előidézhet kivételt.
+d)   API metódus is kiválthat kivételt.
+Correct answer: bcd
+QUESTION 28.
+Egy kivételkezelő szerkezetben az itt megadott blokkok szerepelnek, a következő sorrendben. Jelölje meg az összes
+szintaktikailag helyes változatot!
+a)   try
+b)   try – catch – catch
+c)   try – finally
+d)   try – catch – finally
+Correct answer: bcd
+QUESTION 29.
+Egy kivételkezelő szerkezetben az itt megadott blokkok szerepelnek, a következő sorrendben. Jelölje meg az összes
+szintaktikailag helyes változatot!
+a)   try – catch – catch – finally
+b)   catch – catch – finally
+c)   try – catch
+d)   finally – try
+Correct answer: ac
+QUESTION 30.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Ha a try blokk normálisan lefut, akkor végrehajtódik a finally blokk (ha van), majd az azutáni utasításokra kerül a vezérlés.
+b) Ha a try blokkot a return utasítással elhagyjuk, akkor a finally nem hajtódik végre a metódusból való kiugrás előtt.
+c) A finally blokk csak akkor hajtódik végre, ha a try blokk végrehajtása közben nem keletkezett kivétel.
+d) Ha a try blokk végrehajtása közben kivétel keletkezik, akkor – feltéve, hogy a kivételt elkapjuk – a vezérlés a kivétel típusától függően valamely catch blokk végrehajtásával folytatódik.
+Correct answer: ad
+QUESTION 31.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A kivételt csak abban a metódusban lehet lekezelni, amelyben keletkezett.
+b)   A lekezeletlen kivétel a metódushívási láncon visszafelé kiszáll a programból.
+c)   Az ellenőrzött kivételek osztálya a RuntimeException vagy annak utódja.
+d)   Ha a kivételkezelésben van finally blokk, akkor az mindig végrehajtódik.
+Correct answer: bd
+QUESTION 32.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A komponensek (Component és leszármazottai) téglalap alakú képernyőfelületek.
+b)   A dialógusablak konténerkomponens.
+c)   A Rectangle a Component osztály leszármazottja.
+d)   A szövegmező vezérlő komponens.
+Correct answer: abd
+QUESTION 33.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A keret lehet egy másik keret tulajdona.
+b)   A lista elemei szerkeszthető szövegsorok.
+c)   A panelbe tett elemek elhagyhatják a panel területét.
+d)   A keretre csak a tartalompanelen keresztül tehetünk komponenseket.
+Correct answer: d
+QUESTION 34.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A konténerbe csak az append metódussal tehetünk be komponenst.
+b) A keretnek lehet egy vagy több ablak a birtokában, egy másik keret azonban nem.
+c) A tulajdonosi hierarchiába fel nem vett komponens nem látható ugyan, de reagálhat felhasználói eseményekre.
+d) A komponensek tulajdonosi hierarchiája megegyezik az öröklési hierarchiával.
+Correct answer: b
+QUESTION 35.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A Group osztály a gombok csoportosítására szolgál.
+b)   Az ablaknak (JWindow) van kerete, címe és menüje.
+c)   A panel segítségével összefoghatunk és csoportosíthatunk komponenseket.
+d)   A keret tulajdonában levő ablak nem hagyhatja el a keret területét.
+Correct answer: c
+QUESTION 36.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A JComponent absztrakt osztály, a Swing komponensek közös őse.
+b)   A Dimension osztály adatai között szerepel a képernyő felbontása.
+c)   A létrehozott Font objektum tulajdonságai megváltoztathatók.
+d)   A keretbe (JFrame) közvetlenül lehet nyomógombokat tenni.
+Correct answer: a
+QUESTION 37.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A felhasználói interfész minden konténerének van alapértelmezés szerinti elrendezésmenedzsere.
+b) A FlowLayout elrendezésmenedzser jobbról balra haladva sorfolytonosan helyezi el a konténerbe tett
+komponenseket.
+c) A BorderLayout elrendezésmenedzser egy rácson helyezi el a konténer elemeit.
+d) A GridLayout elrendezésmenedzser határ menti elrendezésben teszi fel a komponenseket a grafikus felületre.
+Correct answer: a
+QUESTION 38.
+A BorderLayout határ menti elrendezésben teszi fel a komponenseket a grafikus felületre. Az elemek öt helyre
+kerülhetnek; melyik ez az öt hely? Jelölje meg az egyetlen helyes választ!
+a)   North, South, Left, Right, Center
+b)   Up, Down, Left, Right, Center
+c)   North, South, West, East, Center
+d)   Up, Down, West, East, Center
+Correct answer: c
+QUESTION 39.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A felhasználói interfész minden konténerének van alapértelmezés szerinti elrendezésmenedzsere.
+b) Minden elrendezésmenedzser implementálja a LayoutManager interfészt.
+c) A BorderLayout elrendezésmenedzser segítségével a grafikus felületen el lehet helyezni hét komponenst úgy,
+hogy azok láthatók legyenek.
+d) A keret (JFrame) tartalompaneljének BorderLayout az alapértelmezés szerinti elrendezésmenedzsere.
+Correct answer: abd
+QUESTION 40.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Minden konténer-komponenshez hozzárendelhető elrendezésmenedzser.
+b)   Egy konténer-komponens elrendezésmenedzsere a programban többször is kicserélhető.
+c)   Ha GridLayout az elrendezésmenedzser, akkor az elemek mérete nem változik az ablak átméretezésekor.
+d)   A panelnek (JPanel) BorderLayout az alapértelmezés szerinti elrendezésmenedzsere.
+Correct answer: ab
+QUESTION 41.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Javában a programozó köteles a konténerekhez elrendezésmenedzsert rendelni.
+Javában a programozó köteles minden konténer-komponenshez direkt módon elrendezésmenedzsert rendelni.
+b) Ha BorderLayout az elrendezésmenedzser, akkor az add(Component) északra teszi a megadott komponenst.
+c) Ha FlowLayout az elrendezésmenedzser, akkor az elemek mérete változik az ablak átméretezésekor.
+d) A dialógusablaknak (JDialog) BorderLayout az alapértelmezés szerinti elrendezésmenedzsere.
+Correct answer: d
+QUESTION 42.
+A következőkből melyek alacsony szintű események? Jelölje meg az összes jó választ!
+a)   ContainerEvent
+b)   ComponentEvent
+c)   ActionEvent
+d)   MouseEvent
+Correct answer: abd
+QUESTION 43.
+Mely eseményosztály–metódus párra igaz, hogy a metódus az esemény lekezelő metódusa? Jelölje meg az összes jó
+választ!
+a)   ActionEvent – mouseExited
+b)   ComponentEvent – keyPressed
+c)   KeyEvent – keyTyped
+d)   MouseEvent – mouseMoved
+Correct answer: cd
+QUESTION 44.
+Jelölje meg az összes helyes állítást a következők közül!
+a)   A WindowAdapter absztrakt osztály.
+b)   A WindowAdapter az Object osztály leszármazottja.
+c)   A WindowAdapter a ComponentAdapter osztály leszármazottja.
+d)   A WindowAdapter implementálja a WindowListener interfészt.
+Correct answer: abd
+QUESTION 45.
+Melyik felsorolás adja meg a KeyEvent esemény összes lekezelő metódusát? Jelölje meg az egyetlen jó felsorolást!
+a) keyTyped, keyPressed, keyReleased
+b) keyPressed, keyEntered, keyExited
+c) keyDown, keyUp, keyLeft, keyRight
+d) keyPressed, keyReleased
+Correct answer: a
+QUESTION 46.
+Jelölje meg az összes helyes állítást a következők közül!
+a)   Az eseményadapter csupa absztrakt metódust definiál.
+b)   Az eseményadapter csupa üres metódust definiál.
+c)   Az eseményadapter nem példányosítható.
+d)   Az eseményadapter leszármazottja csak névtelen lehet.
+Correct answer: bc
+QUESTION 47.
+Jelölje meg az összes helyes állítást!
+a)   A MouseAdapter jelölő interfész.
+b)   A MouseAdapter absztrakt osztály.
+c)   A MouseAdapter üres osztály.
+d)   A MouseAdapter utódjában felül kell írni legalább egy metódust.
+Correct answer: b
+QUESTION 48.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Egy objektumnak több figyelőlánca lehet.
+b) Magas szintű esemény bármely látható objektumon keletkezhet.
+c) Minden eseménynek van forrásobjektuma.
+d) Az eseményt közvetlenül az eseményfigyelő kapja meg az operációs rendszertől.
+Correct answer: ac
+QUESTION 49.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Magas szintű esemény csak komponensen keletkezhet.
+b) Az AdjusmentEvent esemény magas szintű.
+c) A program futása közben minden alacsony szintű eseményt le kell kezelni.
+d) Akcióesemény (ActionEvent) forrása csak az AbstractButton leszármazottja lehet.
+Correct answer: b
+QUESTION 50.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Minden esemény az esemény forrásán keletkezik.
+b) Az eseményt csak a figyelői dolgozhatják fel.
+c) Egy objektumnak csak egy figyelőlánca lehet.
+d) Egy figyelőlánchoz csak egy objektumot lehet hozzáfűzni.
+Correct answer: a
+QUESTION 51.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Ha egy figyelő interfészt implementálunk, akkor elég csak a lekezelt események metódusait kifejteni.
+b) Az eseményadapter üres metódusokkal implementálja a figyelő interfészt.
+c) Egy interfészt implementálása automatikusan maga után vonja a figyelt események lekezelését.
+d) Egy figyelőláncra tetszőleges objektum felfűzhető.
+Correct answer: b
+QUESTION 52.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Ahhoz, hogy egy eseményt lekezelhessünk, a figyelőit fel kell fűzni a forrásobjektum megfelelő figyelőláncára.
+b) Az eseményt a figyelői továbbítják a forrásobjektumhoz.
+c) Az eseménydelegációs modell elemei: az esemény, a forrásobjektum és az esemény figyelői.
+d) Minden komponensnek (Component) vannak alacsony szintű figyelőláncai, de ezek lehetnek üresek is.
+Correct answer: acd
+QUESTION 53.
+Az alábbiak közül mely komponensek vannak a swing csomagban deklarálva? Jelölje meg az összes jó választ!
+a)   CheckBox
+b)   TScrollBar
+c)   JTextField
+d)   Point
+Correct answer: c
+QUESTION 54.
+Az alábbiak közül mely komponensek vannak a swing csomagban deklarálva? Jelölje meg az összes jó választ!
+a) Panel
+b) JScrollBar
+c) TextField
+d) Dimension
+Correct answer: b
+QUESTION 55.
+Az alábbiak közül mely komponensek vannak a swing csomagban deklarálva? Jelölje meg az összes jó választ!
+a)   Font
+b)   JScrollBar
+c)   Label
+d)   JComboBox
+Correct answer: bd
+QUESTION 56.
+Az alábbiak közül mely komponensek vannak a swing csomagban deklarálva? Jelölje meg az összes jó választ!
+a) JColorChooser
+b) Button
+c) JWindow
+d) JPanel
+Correct answer: acd
+QUESTION 57.
+Az alábbiak közül mely komponensek vannak a swing csomagban deklarálva? Jelölje meg az összes jó választ!
+a) JLabel
+b) Button
+c) Dimension
+d) JFrame
+Correct answer: ad
+QUESTION 58.
+Az alábbiak közül mely komponensek vannak a swing csomagban deklarálva? Jelölje meg az összes jó választ!
+a) Panel
+b) Color
+c) Button
+d) JButton
+Correct answer: d
+QUESTION 59.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A SwingConstans interfész általános, statikus konstansokat deklarál.
+b) A JLabel osztálynak az Object közvetlen őse.
+c) A JComponent a JLabel őse.
+d) A JButton az AbstractButton osztályból származik.
+Correct answer: acd
+QUESTION 60.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A szövegterületnek (JTextArea) van saját görgetősávja.
+b) A JTextArea többsoros beviteli mező.
+c) A JTextArea őse az absztrakt JTextComponent osztály.
+d) A JList az adatmodell elemeinek szöveges reprezentációját jeleníti meg.
+Correct answer: bcd
+QUESTION 61.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A szövegterületnek (JTextArea) nincs saját görgetősávja.
+b) A JTextField egysoros beviteli mező.
+c) Ha egy szövegmezőbe (JTextField) írt szöveg hosszabb a mező szélességénél, akkor ez a szöveg görgethető.
+d) A menütételek tovább bonthatók.
+Correct answer: abc
+QUESTION 62.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A rádiógombokat konvenció szerint egymást kizáró jelölésekre szokás használni.
+b) A kombinált listában a szövegmezőt nem lehet szerkeszteni.
+c) A kombinált listához (JComboBox) az addItem metódussal lehet elemeket hozzáadni.
+d) A kombinált lista (JComboBox) implementálja az ActionListener interfészt.
+Correct answer: acd
+QUESTION 63.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A JLabel szöveg bekérésére használatos komponens.
+b) A JLabel ikont is megjeleníthet.
+c) A JLabel komponensen nem keletkezik magas szintű esemény.
+d) A JLabel alapértelmezésben nincs a billentyűzetfókusz birtokában.
+Correct answer: bcd
+QUESTION 64.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Az AbstractButton a gombok ősosztálya.
+b) Az AbstractButton a gombszerű komponensek közös tulajdonságait fogja össze.
+c) A nyomógombon keletkező eseményt csak egyetlen objektum figyelheti.
+d) Nyomógombon kattintáskor ActionEvent esemény keletkezik.
+Correct answer: abd
+QUESTION 65.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A nyomógombot általában valamilyen akció, parancs elindítására használjuk.
+b) A nyomógombra nem lehet ikont tenni.
+c) Nyomógombon kattintáskor nem keletkezik esemény.
+d) Ha lenyomjuk a nyomógombot, akkor annak ideiglenesen megváltozik a kinézete.
+Correct answer: ad
+QUESTION 66.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A jelölőmezőket konvenció szerint egymástól független jelölésekre használjuk.
+b) A rádiógombokat ButtonGroup objektummal csoportba lehet foglalni.
+c) A ButtonGroup komponens, és ActionEvent esemény keletkezhet rajta.
+d) A rádiógombokat konvenció szerint egymástól függő (egymást kizáró) jelölésekre használjuk.
+Correct answer: abd
+QUESTION 67.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A rádiógomb kétállapotú gomb.
+b) A jelölőmezőket konvenció szerint egymástól függő (egymást kizáró) jelölésekre használjuk.
+c) A ButtonGroup objektummal csoportba foglalt gombok közül egyszerre több is bejelölhető.
+d) A rádiógombokat konvenció szerint egymástól független jelölésekre használjuk.
+Correct answer: a
+QUESTION 68.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A showMessageDialog metódus modális ablakot jelenít meg.
+b) Modális ablakból az alkalmazás bármelyik ablakába át lehet váltani anélkül, hogy az ablakot becsuknánk.
+c) A dialógusablak általában adatbevitelre, nyugtázásra és információközlésre használatos.
+d) Van keret nélküli ablak.
+Correct answer: acd
+QUESTION 69.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Modális ablakban csak az ablak és gyermekei fogadhatnak eseményt.
+b) A showConfirmDialog metódus modális ablakot jelenít meg.
+c) A JColorChooser osztály showDialog metódusának Color a visszatérési típusa.
+d) A dialógusablakokat csak adatbevitelre használhatjuk.
+Correct answer: abc
+QUESTION 70.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Menü segítségével a program funkciói könnyen csoportosíthatók.
+b) A menü tulajdonosi hierarchiájának legfelső szintjén egy menüsor (JMenuBar) áll.
+c) Egy menütételhez (JMenuItem) további menüpontok rendelhetők.
+d) A menühöz (JMenu) és a menütételekhez (JMenuItem) emlékeztető karaktert lehet rendelni.
+Correct answer: abd
+QUESTION 71.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A menü tulajdonosi hierarchiájának legfelső szintjén egy menü (JMenu) áll.
+b) Egy menüponthoz gyorsbillentyű is rendelhető.
+c) Egy menütételhez (JMenuItem) további menüpontok rendelhetők.
+d) Egy időzítőhöz több hallgató is kapcsolható.
+Correct answer: bd
+QUESTION 72.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Az időzítő (Timer) bizonyos időközönként ActionEvent eseményt generál.
+b) Az időzítő periódusa menet közben is állítható.
+c) Az időzítő (Timer) konstruktorában kötelező megadni egy hallgatót.
+d) Az időzítő is komponens.
+Correct answer: abc
+QUESTION 73.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Az abszolút útvonal a számítógép aktuális könyvtárából indul.
+b)   A relatív útvonal az egység gyökérkönyvtárából indul.
+c)   Egy útvonal többféleképpen is felbontható.
+d)   A File objektum egy fájl- vagy könyvtárbejegyzést reprezentál.
+Correct answer: cd
+QUESTION 74.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A fájlkiválasztó dialógus egy relatív útvonal bekérésére való.
+b)   Ha a fájlkiválasztó dialógushoz szűrő van rendelve, akkor a felhasználó csak a szűrt bejegyzéseket láthatja.
+c)   A fájlkiválasztó dialógushoz csak egy szűrő kapcsolható.
+d)   A fájlkiválasztó dialógusnak két opciója van: OPEN_DIALOG, CLOSE_DIALOG.
+Correct answer: c
+QUESTION 75.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A valódi és absztrakt útvonalak között a File objektum végzi el a konverziót.
+b)   Az útvonalon belüli neveket a szeparátor választja el egymástól.
+c)   Az útvonalakat a szeparátor választja el egymástól.
+d)   Az útvonal megadható két útvonal összefűzésével: szülőútvonal, szeparátor, gyermekútvonal.
+Correct answer: abd
+QUESTION 76.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A File objektum egy fájl- vagy könyvtárbejegyzést reprezentál.
+b)   A szűrőosztályok segítségével bizonyos feltételeknek megfelelő bejegyzések válogathatók le.
+c)   A FilenameFilter szűrőosztály.
+d)   A File objektumok létrehozásukkor kapcsolatot teremtenek a megfelelő állománnyal, illetve könyvtárral.
+Correct answer: ab
+QUESTION 77.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Az abszolút útvonal az egység gyökérkönyvtárából indul.
+b)   Az abszolút útvonalat csak egyféleképpen lehet megadni.
+c)   A relatív útvonal megadható két részútvonallal.
+d)   Java programból nem lehet új könyvtárat létrehozni.
+Correct answer: ac
+QUESTION 78.
+Jelölje meg az összes igaz állítást a következők közül!
+a) A relatív útvonal az aktuális könyvtárból indul.
+b) A getParent metódus az egység gyökérkönyvtárának szintjéig megadja az aktuális könyvtárat magába foglaló
+útvonalat.
+c) A FilenameFilter interfész csak egyetlen (accept nevű) metódust definiál.
+d) A fájldialógushoz csak FileFilter típusú szűrő csatolható.
+Correct answer: acd
+QUESTION 79.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A File objektumok létrehozásukkor kapcsolatot teremtenek a megfelelő állománnyal, illetve könyvtárral.
+b)   A fájldialógus abszolút útvonalak bekérésére való modális dialógusablak.
+c)   A fájldialógus tulajdonosát mindig meg kell adni.
+d)   A fájldialógushoz csak FileFilter típusú szűrő csatolható.
+Correct answer: bcd
+QUESTION 80.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A folyam egyszerre írható és olvasható.
+b)   Szerializálható objektum tetszőleges bájtfolyamra kiírható.
+c)   Az adatfolyam pufferelő folyam.
+d)   Egy állomány feldolgozható folyamként és véletlen elérésű állományként is.
+Correct answer: d
+QUESTION 81.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Egy folyam csak sorosan írható.
+b)   Adafolyamra String objektum is kiírható.
+c)   Az objektumfolyam mutatója programból tetszőlegesen állítható.
+d)   Az író utasítások automatikusan állítják a folyam mutatóját.
+Correct answer: abd
+QUESTION 82.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A folyam csak sorosan dolgozható fel.
+b)   Objektumfolyamra karakter is kiírható.
+c)   A bájtfolyam mutatója programból állítható.
+d)   Az InputStream osztály példányosítható.
+Correct answer: abc
+QUESTION 83.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Minden folyam írható.
+b)   A primitív adatok bájtfolyammá konvertálása is a szűrés egyik fajtája.
+c)   Minden adatsorozat feldolgozható bájtfolyamként.
+d)   A szöveges állomány fizikai szerkezete ugyanaz minden platformon.
+Correct answer: bc
+QUESTION 84.
+Jelölje mg az összes igaz állítást a következők közül!
+a)   Objektum szerializálásakor az objektum osztályának azonosítója a bájtfolyamra kerül.
+b)   A szerializált objektum visszatöltésekor az objektum állapota ugyanolyan lesz, mint kimentéskor volt.
+c)   A szöveges állományokat bájtfolyammal szokás feldolgozni.
+d)   Az adatfolyam szűrőfolyam.
+Correct answer: abd
+QUESTION 85.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Egy folyam írhat egy másik folyamba.
+b)   A szöveges állomány feldolgozható bájtfolyamként.
+c)   A karakterfolyam szűrőfolyam.
+d)   A szerializáció segítségével objektumok tartósan eltárolhatók.
+Correct answer: abd
+QUESTION 86.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A Serializable interfész egyetlen metódust sem definiál.
+b)   Egy objektum szerializálásakor az objektum osztályában deklarált osztályadatok a bájtfolyamra kerülnek.
+c)   Egy folyam írhat a nyomtatóra.
+d)   A primitív adatok objektummá konvertálása is a szűrés egy fajtája.
+Correct answer: ac
+QUESTION 87.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Egy folyam csak sorosan írhat adatokat a célhelyre.
+b)   Egy folyam célhelye csak állomány lehet.
+c)   Szűrőfolyamok forrás-, illetve célhelye csak egy másik folyam lehet.
+d)   A kiviteli folyam írhat és olvashat is adatokat.
+Correct answer: ac
+QUESTION 88.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A bájtfolyam egyszerre csak egy bájtot olvashat be, illetve írhat ki.
+b)   Fájlból olvasó bájtfolyammal (FileInputStream) tetszőleges típusú állomány feldolgozható.
+c)   Egymásba ágyazott objektumokat (például vektorokat tartalmazó vektort) nem lehet szerializálni.
+d)   A fájlba író bájtfolyam (FileOutputStream) konstruktora automatikusan létrehozza a megadott nevű
+állományt, ha az nem létezik.
+Correct answer: bd
+QUESTION 89.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A karakterfolyamra egyszerre több karakter is kiírható.
+b)   Objektumokat nem lehet saját (egyéni) eljárásokkal szerializálni.
+c)   A karakterfolyam read metódusának int a visszatérési típusa.
+d)   A szöveges állomány nem bővíthető.
+Correct answer: ac
+QUESTION 90.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Kiviteli adatfolyammal (DataOutputStream) nem lehet közvetlenül állományba írni.
+b)   Az adatfolyamok metódusaival tetszőleges primitív típusú adatok bájtsorozattá lehet alakítani.
+c)   Adatfolyamokkal nem lehet karakterláncokat (String) kezelni.
+d)   A pufferező folyamok egyetlen utasítással beolvashatják vagy kiírhatják egy tetszőleges méretű puffer tartalmát.
+Correct answer: abd
+QUESTION 91.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Az objektumfolyamok (ObjectInputStream, ObjectOutputStream) primitív típusú adatokat is
+kezelhetnek (beolvashatják, illetve kiírhatják őket).
+b) Egy objektum akkor tárolható állományban, ha szerializálható.
+c) Egymásba ágyazott objektumokat (például vektorokat tartalmazó vektort) nem lehet szerializálni.
+d) Objektumokat nem lehet saját (egyéni) eljárásokkal szerializálni.
+Correct answer: ab
+QUESTION 92.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A véletlen elérésű állomány egyszerre írható és olvasható.
+b)   Szerializálható objektum kiírható véletlen elérésű állományba.
+c)   Ha a véletlen elérésű állományt "r" módban nyitjuk meg, akkor az állomány mutatója nem állítható.
+d)   Egy állomány feldolgozható folyamként és véletlen elérésű állományként is.
+Correct answer: ad
+QUESTION 93.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A véletlen elérésű állomány mindig írható.
+b)   Véletlen elérésű állományba String objektum is kiírható.
+c)   A véletlen elérésű állomány mutatója programból tetszőlegesen állítható.
+d)   Az olvasó utasítások automatikusan állítják a véletlen elérésű állomány mutatóját.
+Correct answer: bcd
+QUESTION 94.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A véletlen elérésű állomány csak sorosan dolgozható fel.
+b)   Véletlen elérésű állományba karakter is kiírható.
+c)   A bájtfolyam mutatója programból állítható.
+d)   Egy állomány feldolgozható folyamként és véletlen elérésű állományként is.
+Correct answer: bcd
+QUESTION 95.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Véletlen elérésű állományba csak azonos méretű elemek írhatók fel.
+b)   A véletlen elérésű állomány mutatója tetszőlegesen beállítható.
+c)   A véletlen elérésű állomány mutatója mindig a soron következő (beolvasandó, illetve felírandó) elemre mutat.
+d)   Ha a véletlen elérésű állomány mutatója túlmutat az állomány hosszán, akkor az állomány felíráskor automatikusan
+kibővül.
+Correct answer: bd
+QUESTION 96.
+Jelölje meg az összes igaz állítást a következők közül!
+a) Véletlen elérésű állományba csak sorfolytonosan lehet elemeket felírni, visszapozícionálni nem lehet.
+b) Ha az állománymutató túlmutat a véletlen elérésű állomány hosszán, akkor az állományban felíráskor „lyukak” (üres
+helyek) keletkeznek.
+c) Véletlen elérésű állományból tetszőleges sorrendben lehet elemeket beolvasni.
+d) Véletlen elérésű állományok méretét adatfelírás nélkül is be lehet állítani.
+Correct answer: bcd
+QUESTION 97.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A véletlen elérésű állományt vagy csak olvasásra vagy csak írásra lehet megnyitni.
+b)   Véletlen elérésű állományt bájtonként is lehet olvasni.
+c)   Véletlen elérésű állományba tetszőleges primitív típusú adat felírható.
+d)   Véletlen elérésű állományba String típusú objektumok is felírhatók.
+Correct answer: bcd
+QUESTION 98.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A véletlen elérésű állomány mutatója tetszőlegesen beállítható.
+b)   Véletlen elérésű állományból tetszőleges sorrendben olvashatók be az elemek.
+c)   Véletlen elérésű állományba csak szerializálható objektumokat lehet felírni.
+d)   Véletlen elérésű állomány visszafelé is olvasható.
+Correct answer: abd
+QUESTION 99.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Az adatszerkezet egymással kapcsolatban álló adatok, objektumok összessége.
+b)   Az adatszerkezetek gráfokkal reprezentálhatók.
+c)   A szelekciós műveletek az adatszerkezetet létrehozó és továbbépítő mechanizmusok.
+d)   A szekvenciális adatszerkezetben minden elem csak egy elemet lát.
+Correct answer: abd
+QUESTION 100.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A tömb szekvenciális adatszerkezet.
+b)   A sor szekvenciális adatszerkezet.
+c)   A tábla hierarchikus adatszerkezet.
+d)   A hálózat asszociatív adatszerkezet.
+Correct answer: b
+QUESTION 101.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Az adatszerkezetek leképezhetők absztrakt társzerkezetekre.
+b)   A láncolt lista elemei indexeléssel közvetlenül elérhetők.
+c)   A többdimenziós tömb absztrakt tároló.
+d)   A tábla adatszerkezet csak tömbre képezhető le.
+Correct answer: a
+QUESTION 102.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A hasítással azonos helyre leképezett kulcsokat szinonimáknak nevezzük.
+b)   A verem FIFO adatszerkezet.
+c)   A metódusok hívásakor a rendszer „sor" adatszerkezetet használ a visszatérési címek meghatározására.
+d)   A billentyűzetpuffer veremként működik.
+Correct answer: a
+QUESTION 103.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   Egy fát csak egyféleképpen lehet bejárni.
+b)   A multilista az egyik megoldás az általános fa tárolására.
+c)   Az irányított gráfban a kapcsolatokhoz mérőszám is tartozik.
+d)   A hálózat kapcsolatait leíró mátrix szomszédossági mátrix.
+Correct answer: b
+QUESTION 104.
+A következő pontokban egy-egy interfész–osztály párost talál. Jelölje meg közülük azokat, amelyekben a jobb oldali
+osztály implementálja a bal oldali interfészt!
+a)   Map - HashSet
+b)   Map - TreeMap
+c)   Collection – Collections
+d)   Collection – Stack
+Correct answer: bd
+QUESTION 105.
+A következő pontokban egy-egy interfész–osztály párost talál. Jelölje meg közülük azokat, amelyekben a jobb oldali
+osztály implementálja a bal oldali interfészt!
+a)   Iterator - HashSet
+b)   List - TreeMap
+c)   Collection – TreeSet
+d)   Collection – TreeMap
+Correct answer: c
+QUESTION 106.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A kollekcióban primitív adatok is tárolhatók.
+b)   Iterátorral minden kollekció bejárható.
+c)   A LinkedList bejárható listaiterátorral.
+d)   Minden iterátor implementálja az Iterator interfészt.
+Correct answer: bcd
+QUESTION 107.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A List implementációi mindig rendezettek.
+b)   A SortedMap két objektuma lehet egymással egyenlő.
+c)   A Map elemei indexelhetők.
+d)   Iterátorral minden kollekció bejárható.
+Correct answer: d
+QUESTION 108.
+Jelölje meg az összes igaz állítást!
+a)   A SortedMap implementációi mindig rendezettek.
+b)   A Comparator objektummal kívülről is megadható a TreeMap rendezettsége.
+c)   A List elemei indexelhetők.
+d)   A kollekcióban primitív adatok is tárolhatók.
+Correct answer: abc
+QUESTION 109.
+Jelölje meg az összes igaz állítást!
+a)   A List elemei egyediek.
+b)   Az ArrayList láncolt listával implementálja a List interfészt.
+c)   Egyetlen Iterator objektummal többször is bejárhatók a kollekció elemei.
+d)   A Comparator objektummal kívülről is megadható a TreeMap rendezettsége.
+Correct answer: d
+QUESTION 110.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A SortedSet elemei egyediek.
+b)   A hasítótáblában különböző objektumok is kerülhetnek ugyanabba a csoportba.
+c)   A Comparable interfész implementálásával többféle rendezettség is megadható.
+d)   A Comparator objektummal kívülről is megadható a TreeSet rendezettsége.
+Correct answer: abd
+QUESTION 111.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A HashSet a halmaz fával való megvalósítása.
+b)   Hasításkor két egyenlő objektumnak ugyanazt a hasítókódot kell adnia.
+c)   A Comparator implementációja átadható a TreeSet konstruktorának.
+d)   A Map implementációiban kulcs szerint történik a keresés.
+Correct answer: bcd
+QUESTION 112.
+Jelölje meg az összes igaz állítást a következők közül!
+a)   A TreeSet a halmaz hasítótáblával való megvalósítása.
+b)   Hasításkor két különböző objektum is adhat egyforma hasítókódot.
+c)   A hasítótábla kapacitása a hasítással előállított csoportok száma.
+d)   A Comparator objektummal a természetes rendezettség mellett más rendezettség is megadható.
+Correct answer: bcd

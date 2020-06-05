@@ -1,0 +1,19 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /sendq/(.*)
+  script: main.app
+- url: /(.*\.(js|map|css|png))$
+  static_files: dist/\1
+  upload: dist/.*\.(js|map|css|png)$
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+
+libraries:
+- name: jinja2
+  version: "2.6"
+- name: markupsafe
+  version: "0.15"
