@@ -4,5 +4,5 @@
 # in `lib/` subdirectory.
 #
 # Note: The `lib` directory is added to `sys.path` by `appengine_config.py`.
-Werkzeug==2.2.3
+Werkzeug==3.0.1
 Flask==2.3.2
